@@ -69,7 +69,7 @@ onMounted(() => {
           </label>
 
           <label>
-            <input type="radio" name="category" id="category1" value="personal" v-model="input_category" />
+            <input type="radio" name="category" id="category2" value="personal" v-model="input_category" />
             <span class="bubble personal"></span>
             <div>Personal</div>
           </label>
