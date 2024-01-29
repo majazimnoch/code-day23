@@ -92,7 +92,7 @@ onMounted(() => {
           </div>
 
           <div class="actions">
-            <button class="delete" @click="removeTodo(todo)">Delete</button>
+            <button :class="{ 'business-button': todo.category === 'business', 'personal-button': todo.category === 'personal' }" @click="removeTodo(todo)">❎</button>
           </div>
         </div>
       </div>
