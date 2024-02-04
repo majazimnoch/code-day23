@@ -14,3 +14,5 @@ All the HTML tags are in the template section.
 
 ## Demo
 Click <a href="https://hilarious-snickerdoodle-fd4dd4.netlify.app/">here</a>.
+
+To run the project npm run dev
